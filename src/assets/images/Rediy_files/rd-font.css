@@ -1,0 +1,63 @@
+/*
+ * Icon Font rd
+ * Made with love by Icons8 [ https://icons8.com/ ] using FontCustom [ https://github.com/FontCustom/fontcustom ]
+ *
+ * Contacts:
+ *    [ https://icons8.com/contact ]
+ *
+ * Follow Icon8 on
+ *    Twitter [ https://twitter.com/icons_8 ]
+ *    Facebook [ https://www.facebook.com/Icons8 ]
+ *    Google+ [ https://plus.google.com/+Icons8 ]
+ *    GitHub [ https://github.com/icons8 ]
+ */
+
+
+@font-face {
+  font-family: "rd";
+  src: url("../fonts/rd_3d610bc55953e1044b446a57dda03677.eot");
+  src: url("../fonts/rd_3d610bc55953e1044b446a57dda03677.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/rd_3d610bc55953e1044b446a57dda03677.woff2") format("woff2"),
+       url("../fonts/rd_3d610bc55953e1044b446a57dda03677.woff") format("woff"),
+       url("../fonts/rd_3d610bc55953e1044b446a57dda03677.ttf") format("truetype"),
+       url("../fonts/rd_3d610bc55953e1044b446a57dda03677.svg#rd") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "rd";
+    src: url("../fonts/rd_3d610bc55953e1044b446a57dda03677.svg#rd") format("svg");
+  }
+}
+
+[data-icons8]:before { content: attr(data-icons8); }
+
+.icons8, [data-icons8]:before,
+.icons8-add:before,
+.icons8-application:before,
+.icons8-dropdown:before,
+.icons8-home-solid:before,
+.icons8-query:before,
+.icons8-user:before {
+  display: inline-block;
+  font-family: "rd";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+
+.icons8-add:before { content: "\f100"; }
+.icons8-application:before { content: "\f101"; }
+.icons8-dropdown:before { content: "\f102"; }
+.icons8-home-solid:before { content: "\f103"; }
+.icons8-query:before { content: "\f104"; }
+.icons8-user:before { content: "\f105"; }

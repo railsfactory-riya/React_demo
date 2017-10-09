@@ -1,0 +1,113 @@
+/* btn styles started */
+
+.btn
+  +transition(all .4s ease-in)
+  position: relative
+  &:focus
+    outline: none
+    +box-shadow(none)
+  &-lg
+    min-width: 150px !important
+    padding-right: 30px !important
+.btn-i
+  background: transparent
+  border: 2px solid !important
+  border-radius: 4px
+.btn-wrap
+  +flexbox
+  +justify-content(space-between)
+  border-top: 1px solid #f5f5f5
+  padding: 40px 0
+  border-bottom: 1px solid #f5f5f5
+  align-items: center
+.btn-theme-o
+  background: none
+  color: #333
+  min-width: 120px
+  border: 2px solid
+  border-radius: 0
+.btn-secondary
+  color: $secondary
+.btn-add
+  border-radius: 5px
+  border: 1px solid
+.btn-theme.btn
+  min-width: 130px
+  background: $secondary
+  border-color: $secondary
+  color: #fff
+  position: relative
+  +transition(all .4s ease-in)
+  z-index: 11
+  &.save
+    background: $pink
+    border-color: $pink
+  &:after
+    content: ""
+    position: absolute
+    left: 10px
+    right: 10px
+    top: -7px
+    bottom: -7px
+    border: 2px solid
+    border-color: inherit
+    opacity: .3
+    border-radius: inherit
+    +transition(all .4s ease-in)
+    z-index: -10
+  &:hover
+    +transform(scale(0.9,0.9))
+    &:after
+      +transform(scale(1,1))
+      top: -7px
+      left: -7px
+      right: -7px
+      bottom: -7px
+      opacity: 1
+    i
+      right: 4px
+.btn-icon
+  text-align: left
+  padding-right: 20px
+  i
+    position: absolute
+    right: -10px
+    width: 20px
+    height: 20px
+    background: inherit
+    text-align: center
+    padding: 3px
+    border-radius: 50%
+    z-index: 2
+    +box-shadow(0 0 0 2px #fff)
+    +transition(all .4s ease-in)
+  &.btn-lg i
+    padding: 1px
+.btn-icon-i
+  text-align: right
+  padding-right: 10px
+  padding-left: 20px
+  i
+    right: auto
+    left: -10px
+  &:hover i
+    right: auto
+    left: 4px
+.btn-sm
+  font-weight: 100
+  i
+    top: 4px
+.multi-form-action
+  margin-top: 40px
+  li:first-child .btn
+    background: #585858
+    border-color: #585858
+
+
+
+
+/* newly added button */
+.btn-notify
+  background: #e2e1e1
+  padding: 1px 3px
+  border-radius: 2px
