@@ -121,7 +121,7 @@ export class SignUp extends React.Component {
          "first_name" : this.state.fields["fname"],
          "last_name" : this.state.fields["lname"],
          "email" : this.state.fields["email"],
-         "phone_number" : false,
+         "phone_number" : "No Phone",
          "password" : this.state.fields["password"],
          "password_confirmation" : this.state.fields["password_confirmation"]
        } ,
