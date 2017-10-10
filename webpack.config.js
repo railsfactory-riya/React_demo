@@ -35,7 +35,6 @@ var config = {
   //       allChunks: true
   //   })
   // ]
-//--
 };
 
 module.exports = config;
